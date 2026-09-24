@@ -51,7 +51,7 @@ export default function Navbar() {
           
         
           <NavLink className="flex items-center gap-3 group" to="/">
-            <img src="/Image/logo-GdqARQRt.png" alt="عدسة" className="w-12 h-12 object-contain transition-transform duration-300 group-hover:scale-110" />
+            <img src={`${import.meta.env.BASE_URL}Image/logo-GdqARQRt.png`} alt="عدسة" className="w-12 h-12 object-contain transition-transform duration-300 group-hover:scale-110" />
             <div className="flex flex-col">
               <span className="text-white font-bold text-xl leading-none tracking-wide">عدسة</span>
               <span className="text-orange-400/80 text-xs tracking-wide md:block">عالم التصوير الفوتوغرافي</span>
@@ -95,7 +95,7 @@ export default function Navbar() {
         <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm md:hidden flex flex-col p-4">
           <div className="flex items-center justify-between w-full py-4 px-2">
             <NavLink className="flex items-center gap-3 group" to="/" onClick={toggleMenu}>
-              <img src="/Image/logo-GdqARQRt.png" alt="عدسة" className="w-10 h-10 object-contain transition-transform duration-300 group-hover:scale-110" />
+              <img src={`${import.meta.env.BASE_URL}Image/logo-GdqARQRt.png`} alt="عدسة" className="w-10 h-10 object-contain transition-transform duration-300 group-hover:scale-110" />
               <span className="text-white font-bold text-lg leading-none tracking-wide">عدسة</span>
             </NavLink>
             
