@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+@import "tailwindcss";
+
+@theme {
+  --font-tajawal: "Tajawal", sans-serif;
+}
+
+body {
+  font-family: "Tajawal", sans-serif;
+  background-color: #050505;
+  color: #ffffff;
+}
+
+.TAJ {
+  font-family: 'Tajawal', sans-serif;
+}
+
+.grad {
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+}
+
+.grad2 {
+  background: linear-gradient(135deg, #f97316 0%, #fb923c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grad3 {
+  background: linear-gradient(135deg, #2e1e14 0%, #1f140d 100%);
+  border: 1px solid #592d10;
+}
+
+.grad4 {
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+}
+
+.grad5 {
+  background: linear-gradient(to top, rgba(16, 16, 16, 0.9) 0%, transparent 100%);
+}
+
+.grad33 {
+  background: radial-gradient(ellipse at right, rgba(249, 115, 22, 0.12) 0%, transparent 70%);
+}
+
+.grad33l {
+  background: radial-gradient(ellipse at left, rgba(249, 115, 22, 0.12) 0%, transparent 70%);
+}
+
+.gradx {
+  background: linear-gradient(135deg, rgba(46, 30, 20, 0.6) 0%, rgba(22, 22, 22, 0.8) 100%);
+}
+
+@keyframes blob {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(15px, -15px) scale(1.05); }
+}
+
+.blob {
+  animation: blob 8s infinite ease-in-out;
+}
+
+@keyframes fade {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.fade {
+  animation: fade 2s infinite ease-in-out;
+}
+
+@keyframes appearance {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.appearance {
+  animation: appearance 0.8s ease-out forwards;
+}
